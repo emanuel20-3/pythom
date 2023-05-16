@@ -27,8 +27,8 @@ while True:
     except ValueError:
         print("care verga")
 
-    resultado = n_1 + n_2
+resultado = n_1 + n_2
 
-    print(int(resultado))
+print(int(resultado))
 
 
