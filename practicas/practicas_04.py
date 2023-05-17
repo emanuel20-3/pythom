@@ -20,13 +20,13 @@ imc = peso / (altura*altura)
 imc_2 = round(imc, 2)
 
 if imc_2 >= 40:
-    print("Estas como un boloncho, se te va a parar el mango")
+    print(f"Este es tu imc={imc_2}.Estas como un boloncho, se te va a parar el mango")
 
 elif imc_2 <= 15:
-    print("Come yuca con suero care verga")
+    print(f"Este es tu imc={imc_2}.Come yuca con suero care verga")
 
 else:
-    print("Estas lite")
+    print(f"Este es tu imc={imc_2}.Estas lite")
 
 
 
