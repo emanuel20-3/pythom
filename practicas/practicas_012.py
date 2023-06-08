@@ -32,4 +32,4 @@ def palabras(grande):
             if len(grande[j]) > len(grande[j+1]):
                 grande[j], grande[j+1] = grande[j+1], grande[j] 
     print(grande[-1])
-palabras(["emanuel", "espita", "anaya", "vergalaraga"])
+palabras(["emanuel", "espita", "anaya", "vergalaraga"]) 
